@@ -1,0 +1,7 @@
+linda-shop-2835e-534738c73dfe.json
+*.json
+
+node_modules/
+
+# Logs
+npm-debug.log*
