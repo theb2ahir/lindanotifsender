@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Service account JSON
-const serviceAccount = require("./linda-shop-2835e-534738c73dfe.json");
+const serviceAccount = require(process.env.GOOGLE_APPLICATION_CREDENTIALS);
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
