@@ -1,0 +1,17 @@
+{
+  "name": "lindanotifsender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send_notifications.js",
+  "scripts": {
+    "start": "node send_notifications.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "firebase-admin": "^13.6.0"
+  }
+}
